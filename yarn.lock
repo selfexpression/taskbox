@@ -569,6 +569,14 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.4.tgz#427d5549943a9c6fce808e39ea64dbe60d4047f1"
   integrity sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA==
 
+"@storybook/addon-a11y@^8.3.3":
+  version "8.3.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.3.3.tgz#1ab0db4b559f6ba6bb33c928c634b15d21bd5a72"
+  integrity sha512-TiCbNfKJOBD2b8mMqHOii8ntdt0V4+ifAgzmGku+F1hdf2EhEw1nL6CHpvnx/GBXoGeK4mrPJIKKoPNp+zz0dw==
+  dependencies:
+    "@storybook/addon-highlight" "8.3.3"
+    axe-core "^4.2.0"
+
 "@storybook/addon-actions@8.3.2":
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.3.2.tgz#bded2d778f3c9309334d8e378a55723d25907f50"
@@ -637,6 +645,13 @@
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.3.2.tgz#a23669cadeed5a5bd18ebbbcd6258f9492508b6b"
   integrity sha512-JFL/JLBZfa89POgi8lBdt8TzzCS1bgN/X6Qj1MlTq3pxHYqO66eG8DtMLjpuXKOhs8Dhdgs9/uxy5Yd+MFVRmQ==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
+"@storybook/addon-highlight@8.3.3":
+  version "8.3.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.3.3.tgz#2e1d96bdd8049af7343300cbb43adb4480f3ed7d"
+  integrity sha512-MB084xJM66rLU+iFFk34kjLUiAWzDiy6Kz4uZRa1CnNqEK0sdI8HaoQGgOxTIa2xgJor05/8/mlYlMkP/0INsQ==
   dependencies:
     "@storybook/global" "^5.0.0"
 
@@ -1416,6 +1431,11 @@ available-typed-arrays@^1.0.7:
   integrity sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==
   dependencies:
     possible-typed-array-names "^1.0.0"
+
+axe-core@^4.2.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.0.tgz#d9e56ab0147278272739a000880196cdfe113b59"
+  integrity sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==
 
 babel-walk@3.0.0-canary-5:
   version "3.0.0-canary-5"

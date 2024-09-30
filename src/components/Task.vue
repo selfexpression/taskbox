@@ -5,7 +5,7 @@
         type="checkbox"
         :checked="isChecked"
         disabled
-        :name="'checked' + task.id"
+        :name="`checked ${task.id}`"
         :id="'archiveTask-' + task.id"
       />
       <span class="checkbox-custom" @click="archiveTask" />
